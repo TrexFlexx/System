@@ -1,0 +1,170 @@
+Permissions:
+  broadcast: 'system.bc'
+  clearchat: 'system.cc'
+  ci: 'system.ci'
+  day: 'system.day'
+  ec-other: 'system.ec.other'
+  fly: 'system.fly'
+  GlobalMute: 'system.GlobalMute'
+  gm:
+    use: 'system.gm'
+    others: 'system.gm.others'
+    surival: 'system.gm.surival'
+    creative: 'system.gm.creative'
+    adventure: 'system.gm.adventure'
+    spectator: 'system.gm.spectator'
+  heal: 'system.heal'
+  invsee: 'system.invsee'
+  kopf: 'system.kopf'
+  night: 'system.night'
+  repair: 'system.repair'
+  live: 'system.live'
+  tpo: 'system.tpo'
+  tpohere: 'system.tpohere'
+  vanish:
+    use: 'system.vanish'
+    see: 'system.vanish.see'
+  pluginreload: 'system.reload'
+  socialspy: 'system.socialspy'
+  live: 'system.live'
+  sign: 'system.sign'
+  speed: 'system.speed'
+  setspawn: 'system.setspawn'
+  setfarmwelt: 'system.setfarmwelt'
+  enchant: 'system.enchant'
+  teamchat: 'system.teamchat'
+  kick: 'system.kick'
+  eco: 'system.eco'
+  i: 'system.i'
+  payall: 'system.payall'
+  Bank: 'system.bankall'
+  playtime: 'system.playtime'
+  sethome: 'system.sethome'
+  muteP: 'system.mutePlayer'
+  unmuteP: 'system.unmuteP'
+  status: 'system.status'
+  pluginreload: 'system.pluginreload'
+  ban:
+    use: 'system.ban'
+    see: 'system.ban.see'
+    unban:
+      use: 'system.unban'
+      see: 'system.unban.see'
+    unmute:
+      use: 'system.unmute'
+      see: 'system.unmute.see'
+    1: 'system.ban.1'
+    2: 'system.ban.2'
+    3: 'system.ban.3'
+    4: 'system.ban.4'
+    5: 'system.ban.5'
+    6: 'system.ban.6'
+    7: 'system.ban.7'
+    8: 'system.ban.8'
+    9: 'system.ban.9'
+    10: 'system.ban.10'
+    11: 'system.ban.11'
+    12: 'system.ban.12'
+    13: 'system.ban.13'
+    14: 'system.ban.14'
+    15: 'system.ban.15'
+    16: 'system.ban.16'
+    17: 'system.ban.17'
+    99: 'system.ban.99'
+
+BelohnungsMoney: 250
+
+Nachricht:
+  prefix: "§bCityBuild §8> §r§a"
+  prefixPerks: "§dPerks §8> §r"
+  prefixEco: "§eGuthaben §8> §r"
+  BankPrefix: "§eBank §8> §r"
+
+  noPerms: "§bCityBuild §8> §r§cDazu hast du keine Rechte!"
+  servername: ""
+  unbanIP: ""
+
+Website: "https://dsc.gg/frzzy" # Für Tablist
+ServerName: "§5Frzzy" # Für Tablist
+Perks:
+  NoHunger: 150000
+  NoFall: 250000
+  KeepHotbar: 75000
+  NightVision: 50000
+  Effizienz: 50000
+  Speed: 10000
+  ClearChat: 250000
+  KeepXP: 75000
+  WasserAtmung: 50000
+  Stärke: 50000
+  Status: 500000
+
+Ranks:
+  Owner:
+    perm: "sys.owner"
+    prefixTab: "§4Owner §8| §4"
+    prefixTabName: "§4"
+    prefixChat: "§4§lOwner §8| §4"
+    prefixScoreboard: " §4Owner"
+  Admin:
+    perm: "sys.admin"
+    prefixTab: "§cAdmin §8| §c"
+    prefixTabName: "§c"
+    prefixChat: "§cAdmin §8| §c"
+    prefixScoreboard: " §cAdmin"
+  Developer:
+    perm: "sys.dev"
+    prefixTab: "§bDev §8| §b"
+    prefixTabName: "§b"
+    prefixChat: "§bDeveloper §8| §b"
+    prefixScoreboard: " §bDeveloper"
+  Moderator:
+    perm: "sys.mod"
+    prefixTab: "§9Mod §8| §9"
+    prefixTabName: "§9"
+    prefixChat: "§9Moderator §8| §9"
+    prefixScoreboard: " §9Moderator"
+  Supporter:
+    perm: "sys.sup"
+    prefixTab: "§eSup §8| §e"
+    prefixTabName: "§e"
+    prefixChat: "§eSupporter §8| §e"
+    prefixScoreboard: " §eSupporter"
+  Builder:
+    perm: "sys.builder"
+    prefixTab: "§2Builder §8| §2"
+    prefixTabName: "§2"
+    prefixChat: "§2Builder §8| §2"
+    prefixScoreboard: " §2Builder"
+  Streamer:
+    perm: "sys.streamer"
+    prefixTab: "§5Streamer §8| §5"
+    prefixTabName: "§5"
+    prefixChat: "§5Streamer §8| §5"
+    prefixScoreboard: " §5Streamer"
+  Freund:
+    perm: "sys.freund"
+    prefixTab: "§bFreund §8| §b"
+    prefixTabName: "§b"
+    prefixChat: "§bFreund §8| §b"
+    prefixScoreboard: " §bFreund"
+  VIP:
+    perm: "sys.vip"
+    prefixTab: "§6VIP §8| §6"
+    prefixTabName: "§6"
+    prefixChat: "§6VIP §8| §6"
+    prefixScoreboard: " §6VIP"
+  Spieler:
+    prefixTab: "§8Spieler §8| §7"
+    prefixTabName: "§8"
+    prefixChat: "§8Spieler §8| §7"
+    prefixScoreboard: " §8Spieler"
+
+Time:
+
+
+
+
+Wichtig:
+CityBuild-System made by: TrexFlexx#9686
+Wichtig:
